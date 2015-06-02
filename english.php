@@ -1,5 +1,3 @@
-<?php
-
 $_LANG = array(
     'startup_cron' => 'Please run the comand below to add a cron to run when you restart your system<br /><br />echo \'/home/xtreamcodes/iptv_xtream_codes/php/bin/php /home/xtreamcodes/iptv_xtream_codes/crons/startup.php\' >> /etc/init.d/rc.local',
     'ip_tables' => 'XtreamCodes does not have permissions to use iptables. Please run the command below from your SSH<br /><br />echo \'xtreamcodes ALL = (root) NOPASSWD: /sbin/iptables\' >> /etc/sudoers',
